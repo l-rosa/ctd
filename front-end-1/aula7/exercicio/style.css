@@ -1,0 +1,56 @@
+/* 
+Exercício Aula 07 - Mesas de Trabalho
+
+Lucas Rosa
+
+Faça o download desse documento index.html em sua máquina
+Abra a página utilizando o navegador de sua preferência para visualizar sua exibição sem nenhum estilo, que deve ser semelhante à seguinte:
+
+*/
+
+body {
+
+    background-color: #dfd7b9;
+
+}
+
+h1 {
+
+    color: #172689;
+
+}
+
+.job-title {
+
+    background-color: #172689;
+    color: gray;
+
+}
+
+#high {
+
+    color: #172689;
+
+}
+
+footer h2 {
+
+    color: #333333;
+
+}
+
+footer h2 {
+
+    color: #333333;
+    background-color: #dfd7b9;
+
+}
+
+footer ul {
+
+    background-color: #333333;
+    color: #dfd7b9;
+    background-size: contain;
+    
+}
+

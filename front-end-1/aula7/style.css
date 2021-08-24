@@ -1,0 +1,40 @@
+
+body {
+
+    background-color: darkgrey;
+}
+
+/*
+h1 {
+
+    color: blueviolet;
+
+}
+
+.titulo-principal {
+
+    color:brown;
+
+    font-size:120px
+
+}
+
+#titulo {
+
+    color:rgba(35, 177, 118, 0.582)
+
+}
+*/
+
+.titulo-principal, h1, #titulo {
+
+    color:darkgreen;
+    font-size: 80px;
+}
+
+.card a, .card p{
+
+    font-size: 40px;
+
+}
+
