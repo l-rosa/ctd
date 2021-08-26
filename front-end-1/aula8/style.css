@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.titulo-principal {
+
+    color: cadetblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.conteudo-principal{
+    
+    /* background-color: red; */
+    height: 300px;
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-abstrato-azul-linhas-fluidas_1017-19951.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+    
+}
