@@ -1,0 +1,35 @@
+.banner {
+
+    background-image: url("https://legadodadc.com.br/wp-content/uploads/2021/08/Joker2.jpg");
+
+    width: 1280px;
+    height: 720px;
+
+    text-align: center;
+
+    padding: 80px 30px;
+
+    box-sizing: border-box;
+
+    border-radius: 20px;
+
+}
+
+.titulo-1 {
+
+    color: #0000ff;
+
+}
+
+.texto-principal {
+
+    color: #54914c;
+    font-size: 30px;
+
+}
+
+.botao-1 {
+
+    background-color: #dc143c;
+
+}
