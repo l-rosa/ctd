@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 2000px;
+
+    background-image: url(https://i.pinimg.com/736x/2a/a3/2d/2aa32dfc02d855f5f279d5689b43ac1d.jpg);
+
+    background-size: contain;
+
+}
+
+.main-menu {
+
+    width: 100%;
+    background-color: orangered;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+
+    padding: 10px;
+    text-align: center;
+
+}
+
+.wpp {
+
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 50;
+
+    padding: 10px;
+    text-align: center;
+
+}
+
+.main-menu img {
+    width: 50px;
+    height: 50px;
+    left: 0;
+}
+
+.main-menu a {
+
+    color: gray;
+    text-decoration: none;
+
+    font-size: 25px;
+
+    margin: 0 20px;
+
+}
+
+.product {
+
+    padding: 10px;
+
+}
+
+.product h1 {
+
+    position: relative;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+.product button {
+
+    position: relative;
+    padding: 10px;
+    margin-left: 50px;
+
+    color: orangered;
+
+    font-weight: 800;
+}
+

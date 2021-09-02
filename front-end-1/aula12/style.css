@@ -1,0 +1,27 @@
+.box {
+
+    width: 250px;
+    height: 250px;
+
+}
+
+.first-box {
+
+    background-color: cornflowerblue;
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+    z-index: 1;
+
+}
+
+.second-box {
+
+    background-color: crimson;
+
+    position: absolute;
+
+    z-index: 2;
+}
