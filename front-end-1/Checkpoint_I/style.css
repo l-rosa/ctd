@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+body {
+
+    width: 1430px;
+
+    background-color: #F5F5F5;
+}
+
+header {
+
+    width: 1430px;
+    height: 100px;
+    background-color: #2A2E3C;
+
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.green {
+
+    color: #57C9B5;
+
+}
+
+.main-summary {
+
+    width: 1430px;
+    height: 400px;
+
+    background-image: url(https://i1.trekearth.com/photos/37190/sh106908_te.jpg);
+    background-size: cover;
+    background-position-y: center;
+    
+    padding: 10px;
+    box-sizing: border-box;
+    
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.gold {
+    color: #A68654;
+}
+
+.main-paragraph {
+
+    margin: 100px 80px;
+}
+
+.youtube {
+
+    width: 1280px;
+    height: 720px;
+
+    padding: 60px 60px 0px 60px;
+}
+
+.div-lista {
+    background-color: #2A2E3C;
+
+    padding: 5px 40px;
+    box-sizing: border-box;
+}
+
+.curiosidades {
+
+    font-family: 'Urbanist', sans-serif;
+}
+
+.lista {
+
+    font-size: 17px;
+    font-family: 'Kaisei Tokumin', serif;
+    
+}
+
+.icones {
+
+    background-color: #57C9B5;
+    padding: 10px;
+
+}
+
+.icone-img {
+
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+
+}
