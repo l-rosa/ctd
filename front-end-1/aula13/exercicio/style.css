@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+
+body {
+
+    background-color: #8C818F;
+}
+
+form {
+
+    background-color: #ffffff;
+
+    width: 450px;
+    margin: 0 auto;
+    padding: 25px;
+
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+.text {
+    font-family: 'Glory', sans-serif;
+    color: #8C818F;
+}
+
+div {
+    margin: 5px;
+}
+
+label {
+    font-family: 'Glory', sans-serif;
+    color: #8C818F;
+}
+
+.inputs {
+    border: 1px solid #8C818F;
+    border-radius: 12px;
+    padding: 12px;
+    
+    color: #FFAA4D;
+}
+
+button {
+
+    background-color: #8C818F;
+    color: #FFAA4D;
+
+    font-size: 18px;
+
+    padding: 10px 20px;
+    border-radius: 25px;
+    
+
+}

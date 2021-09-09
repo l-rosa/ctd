@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form>
+
+        <img src="https://img-premium.flaticon.com/png/512/3769/premium/3769634.png?token=exp=1631151148~hmac=6f2dd8e68c81db8be7e349d1e2ee3291" alt="">
+
+        <h1 class="text">Formulário de Cadastro</h1>
+
+        <h2 class="text">Dados Pessoais</h2>
+
+        <div>
+
+            <label for="fullName">Nome completo</label>
+            <input class="inputs" required placeholder="Insira o seu nome" type="text" name="fullName"  id="fullName"> 
+            
+        </div>
+
+        <div>
+
+            <label for="email">E-mail</label>
+            <input class="inputs" type="email" required minlength="3" name="email"  id="email"> 
+            
+        </div>
+
+        <div>
+
+            <label for="birthDate">Data de Nascimento</label>
+            <input class="inputs" type="date" name="birthDate"  id="birthDate"> 
+            
+        </div>
+
+        <div>
+
+            <label for="password">Senha</label>
+            <input class="inputs" type="password" maxlength="6" name="password"  id="password"> 
+            
+        </div>
+
+        <h2 class="text">Localização</h2>
+
+        <div>
+
+            <label for="city">Cidade</label>
+            <select class="inputs" name="city" id="city" >
+                <option value="">São Paulo</option>
+                <option value="">Belo Horizonte</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Curitiba</option>
+            </select>
+
+        </div>
+
+        <div>
+
+            <label for="observation">Observação</label>
+            <textarea class="inputs" name="observation" id="observation" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <button type="submit">Enviar</button> 
+        
+        <button type="reset">Limpar o Formulário</button> 
+        
+    </form>
+
+</body>
+</html>
