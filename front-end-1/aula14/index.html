@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* fieldset {
+
+            border: none;
+
+        } */
+
+        legend {
+
+            color: indianred;
+            font-size: 20px;
+            text-align: center;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <form autocomplete="off">
+        <!-- automcplete: Desabilita o preenchimento automatico da web -->
+
+        <h1>Formulário de Cadastro</h1>
+
+        <!-- <h2>Dados Pessoais</h2> -->
+
+        <fieldset>
+
+                <legend>Dados Pessoais</legend>
+
+                <div>
+
+                    <label for="fullName">Nome completo</label>
+                    <input required placeholder="Insira o seu nome" type="text" name="fullName"  id="fullName"> 
+                    <!--A característica name dentro da tag input serve como um identificador para relacionar este campo dentro um JSON-->
+                </div>
+        
+                <div>
+        
+                    <label for="email">E-mail</label>
+                    <input type="email" required minlength="3" name="email"  id="email"> 
+                    
+                </div>
+        
+                <div>
+        
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate"  id="birthDate"> 
+                    
+                </div>
+        
+                <div>
+        
+                    <label for="password">Senha</label>
+                    <input type="password" maxlength="6" name="password"  id="password"> 
+                    
+                </div>
+
+                <div>
+
+                    <input type="radio" checked name="person" id="juridico" value="pessoaJuridica">
+                    <label for="juridico">Pessoa Juridica</label>
+                    <!-- A característica 'checked' é um atributo que já deixa marcado ao iniciar a página, com intuito de facilitar o preenchimento -->
+
+                    <input type="radio" name="person" id="juridico" value="pessoaFisica">
+                    <label for="fisica">Pessoa Física</label>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="personJ" name="personJ">
+                    <label for="personJ">Pessoa Juridica?</label>
+
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Localização</legend>
+
+            <div>
+
+                <label for="city">Cidade</label>
+                <select name="city" id="city" >
+                    <optgroup label="Sudeste">
+                        <option value="">São Paulo</option>
+                        <option value="">Belo Horizonte</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value="">Curitiba</option>
+                    </optgroup>
+                    <!-- <option value="">São Paulo</option>
+                    <option value="">Belo Horizonte</option>
+                    <option value="">Rio de Janeiro</option>
+                    <option value="">Curitiba</option> -->
+                    <!-- O campo value dentro da tag option, determina quem será enviado para o JSON na hora de transportar esse dado -->
+                    <!-- O tamanho da tag select, depende do maior elemento inserido como padrão nas opções option, a não ser que seja CSS -->
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="bairro">Bairro</label>
+                <input list="bairros" name="bairro" id="bairro">
+                <datalist id="bairros">
+                    <option value="Edge"></option>
+                    <option value="Firefox"></option>
+                    <option value="Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist>
+
+            </div>
+
+            <div>
+
+                <label for="observation">Observação</label>
+                <textarea name="observation" id="observation" cols="30" rows="10"></textarea>
+
+            </div>
+
+            <div>
+
+                <label for="fileUpload">RG Frente</label>
+                <input type="file" id="fileUpload">
+
+            </div>
+
+        </fieldset>
+
+        
+
+        <button type="submit">Enviar</button> 
+        <!-- A característica submit, realizaria o envio de todos os campos preenchidos dentro deste form aberto -->
+        <!-- A característica required, na existência de um botão serve para informar ao usuário a necessidade de preenchimento -->
+        <button type="reset">Limpar o Formulário</button> 
+        
+    </form>
+
+</body>
+</html>
