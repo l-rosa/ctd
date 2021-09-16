@@ -1,0 +1,61 @@
+@keyframes shake{
+
+    0% {
+
+        background-color: salmon;
+        transform: translateX(20px);
+
+    }
+    100% {
+
+        background-color: violet;
+        transform: translateX(-20px);
+
+    }
+
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 12px 24 px;
+    /* transition: 1s .5s ease-out; duration _ delay _ timing-function*/
+    transition-duration: 1s;
+    transition-property: padding;
+    /* Delimita qual propriedade da transição que será afetada pela duration */
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+button:hover {
+
+    background-color: aquamarine;
+    padding: 60px;
+    /* transform: rotate(200deg);
+    transform: scale(0.5);
+    transform: skew(20deg);
+    transform: translateY(120px) */
+
+}
+
+@keyframes fadeUp {
+    0%{
+
+        opacity: 0;
+
+    }
+    100%{
+
+        opacity:1;
+    }
+}
+
+p {
+    animation: fadeUp 2s;
+}

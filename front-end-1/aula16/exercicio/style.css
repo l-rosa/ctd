@@ -1,0 +1,82 @@
+@keyframes shakeInv{
+
+    0% {
+
+        transform: translateX(20px);
+        opacity: 0;
+
+    }
+    100% {
+    
+        transform: translateX(-20px);
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes rotateTranslate{
+
+    0% {
+
+        transform: rotate(30deg) translateX(40px);
+
+    }
+    100% {
+    
+        transform: rotate(-30deg) translateX(-40px);
+
+    }
+
+}
+
+body {
+
+    background-color: green;
+
+}
+
+div {
+    margin: 50px auto;
+}
+
+.parte1 {
+    margin: 0 auto;
+    display: block;
+    animation-name: shakeInv;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.parte2 {
+    margin: 0 auto;
+    display: block;
+    animation-name: rotateTranslate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    padding: 12px 24px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    font-size: 20px;
+    color: green;
+}
+
+button:hover {
+
+    background-color: yellow;
+    padding: 24px 48px;
+    /* transform: rotate(200deg);
+    transform: scale(0.5);
+    transform: skew(20deg);
+    transform: translateY(120px) */
+
+}
