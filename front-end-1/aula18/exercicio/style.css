@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    grid-template-columns: 200px auto;
+    /* Somente determina quantas colunas possuem, não a quantidade de elementos contidas nelas */
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+}
+body header {
+    background-color: #345B63;
+    grid-area: header;
+    height: 100px;
+}
+body header h1 {
+    color: white;
+    text-align: center;
+    margin: 25px 0;
+}
+button {
+    margin: 30px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #152D35;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #DDF0E4;
+    color: #152D35
+}
+
+body aside {
+    background-color: #152D35;
+    grid-area: aside;
+}
+body main {
+    background-color: #DDF0E4;
+    grid-area: main;
+    margin: 0 auto;
+    padding: 50px;
+}
+img {
+    width: 500px;
+    height: 500px;
+}
+body main h1 {
+    color: #152D35;
+}
+p {
+    color: #152D35;
+}
+

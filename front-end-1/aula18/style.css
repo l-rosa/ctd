@@ -1,0 +1,61 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: grid;
+    grid-template-columns: 200px auto;
+    /* Somente determina quantas colunas possuem, não a quantidade de elementos contidas nelas */
+    grid-template-areas: 
+    'header header'
+    'aside main'
+    'footer footer';
+    
+
+}
+
+body header {
+
+    background-color: salmon;
+    grid-area: header;
+    height: 150px;
+    /* Poderia ter qualquer nome ao definir o grod-area*/
+
+}
+
+body aside {
+
+    background-color: crimson;
+    grid-area: aside;
+    height: 400px;
+}
+body main {
+
+    background-color: deepskyblue;
+    grid-area: main;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+body main section {
+
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+}
+body footer {
+
+    background-color: lightgreen;
+    grid-area: footer;
+    height: 150px;
+}
