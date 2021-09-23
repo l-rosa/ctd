@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: salmon
+}
+/* A ordem é importante, interessante colocar do maior pro menor tamanho de tela 
+caso use o max-width - 
+
+Porém se utilizar o min-width interessante ir do menor pro maior.*/
+@media (max-width: 500px) {
+
+    .box {
+
+        width: 100%;
+        background-color: violet;
+
+    }
+}
