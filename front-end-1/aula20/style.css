@@ -1,0 +1,47 @@
+:root {
+
+    --red: pink;
+    --blue: aqua;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+
+    font-size: 3.5em;
+
+}
+
+body {
+
+    background-color: var(--red);
+
+}
+
+section {
+
+    width: 50%;
+    height: 300px;
+    /* background-color: aqua; */
+    background-color: var(--blue);
+
+    width: 50vw;
+    /* vw relacionado a largura */
+    height: 80vh;
+    /* vh relacionado a altura */
+
+}
+
+div {
+
+    width: 50%;
+    /* width: 100vh;  */
+    /* O uso da unidade de medida vh, é relacionado a viewport, diferente de utilizar a porcentagem onde ele respeita o tamanho do elemento que está contido */
+    height: 300px;
+    background-color: red;
+
+}
