@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    position: absolute;
+    z-index: -25;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+body {
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas: 
+    'header header'
+    'aside form';
+}
+
+header {
+    padding: 20px;
+    background-color: cornflowerblue;
+    size: 100%;
+    grid-area: header;
+    text-align: right;
+    font-style: italic;
+    color: white;
+    z-index: 1;
+}
+
+h2 {
+    text-emphasis-color: darkorange;
+    text-shadow: 2px 0 0 darkorange, -2px 0 0 darkorange, 0 2px 0 darkorange, 0 -2px 0 darkorange, 1px 1px darkorange, -1px -1px 0 darkorange, 1px -1px 0 darkorange, -1px 1px 0 darkorange;
+}
+
+aside {
+    padding: 20px;
+    background-color: cornflowerblue;
+    grid-area: aside;
+    height: calc(100vh - 69px);
+    padding: 200px 10px;
+    text-align: right;
+    z-index: 1;
+}
+
+h1 {
+    color: darkorange;
+    z-index: 1;
+}
+
+main {
+    color: white;
+    /* background-image: url(https://thumbs.gfycat.com/AffectionateLeanGoitered-size_restricted.gif);
+    background-size: cover;
+    opacity: 0.5; */
+    z-index: 1;
+}
+
+form {
+
+    margin: 20px;
+    grid-area: form;
+    z-index: 1;
+    
+}
+
+fieldset {
+
+    padding: 15px;
+    border-color: darkorange;
+    z-index: 1;
+
+}
+
+legend {
+
+    color: darkorange;
+    font-style: italic;
+    z-index: 1;
+    font-size: 20px;
+
+}
+
+div {
+
+    margin: 5px;
+
+}
+
+input {
+    margin: 5px;
+    color: darkorange;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+input:hover {
+    border-color: cornflowerblue;
+    transform: scale(1.1);
+}
+
+option {
+    color: darkorange;
+}
+
+select {
+    color: darkorange;
+    padding: 4px;
+}
+
+select:hover {
+    border-color: cornflowerblue;
+    transform: scale(1.1);
+}
+
+h3 {
+    font-style: italic;
+    margin: 5px;
+}
+
+textarea {
+    color: darkorange;
+    padding: 2px;
+}
+
+textarea:hover {
+    border-color: cornflowerblue;
+    transform: scale(1.02);
+}
+
+.botoes {
+    margin: 15px 15px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 auto;
+    color: darkorange;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    border-color: cornflowerblue;
+    transform: scale(1.08);
+}

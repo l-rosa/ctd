@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Belo Horizonte!</title>
+</head>
+
+<body>
+
+    <img src="https://thumbs.gfycat.com/AffectionateLeanGoitered-size_restricted.gif" alt="belo horizonte">
+
+    <header>
+        <h2>Visite Belo Horizonte</h2>
+    </header>
+
+    <aside>
+        <h1>Formulário de Cadastro</h1>
+    </aside>
+
+    <main>
+        
+
+        <form autocomplete="off">
+
+            <fieldset>
+
+                    <legend>Dados Pessoais</legend>
+
+                    <div>
+
+                        <label for="fullName">Nome completo :</label>
+                        <input required placeholder="Insira o seu nome" type="text" name="fullName"  id="fullName"> 
+                        <!--A característica name dentro da tag input serve como um identificador para relacionar este campo dentro um JSON-->
+                    </div>
+            
+                    <div>
+            
+                        <label for="email">E-mail :</label>
+                        <input type="email" required minlength="3" name="email"  id="email"> 
+                        
+                    </div>
+            
+                    <div>
+            
+                        <label for="birthDate">Data de Nascimento :</label>
+                        <input type="date" name="birthDate"  id="birthDate"> 
+                        
+                    </div>
+
+                    <div>
+
+                        <input type="radio" checked name="person" id="maiorIdade" value="maiorIdade">
+                        <label for="juridico">Possuo mais de 18 anos</label>
+                        <!-- A característica 'checked' é um atributo que já deixa marcado ao iniciar a página, com intuito de facilitar o preenchimento -->
+
+                        <input type="radio" name="person" id="maiorIdade" value="menorIdade">
+                        <label for="fisica">Possuo menos de 18 anos</label>
+
+                    </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Principais Interesses</legend>
+
+                <div>
+
+                    <label for="city">Escolha um ponto de Interesse principal :</label>
+                    <select name="city" id="city" >
+                        <optgroup label="Cartões Postais da Cidade">
+                            <option value="">Lagoa da Pampulha</option>
+                            <option value="">Praça do Papa</option>
+                            <option value="">Mercado Central</option>
+                            <option value="">Parque Municipal</option>
+                            <option value="">Praça da Liberdade</option>
+                            <option value="">Zoológico</option>
+                            <option value="">Mineirão</option>
+                        <optgroup label="Ícones da cidade">
+                            <option value="">Bares Savassi / Lourdes</option>
+                            <option value="">NôNô rei do Mocotó</option>
+                            <option value="">Café Palhares</option>
+                            <option value="">Restaurante do Porto</option>
+                            <option value="">Parque Guanabara</option>
+                        </optgroup>
+                    </select>
+                
+                </div>
+
+                <div>
+                    <h3>Conte-nos um pouco mais!</h3>
+
+                    <input type="checkbox" id="personJ" name="personJ">
+                    <label for="personJ">Turismo</label>
+
+                    <input type="checkbox" id="personJ" name="personJ">
+                    <label for="personJ">Residente</label>
+
+                    <input type="checkbox" id="personJ" name="personJ">
+                    <label for="personJ">Estudante</label>
+
+                    <input type="checkbox" id="personJ" name="personJ">
+                    <label for="personJ">A Trabalho</label>
+
+                </div>
+
+                <div>
+
+                    <label for="observation">Observações Adicionais: </label>
+                    <textarea name="observation" id="observation" cols="30" rows="10"></textarea>
+
+                </div>
+
+            </fieldset>
+
+            
+            <div class="botoes">
+                <button type="submit">Enviar</button> 
+                <button type="reset">Limpar o Formulário</button> 
+            </div>
+            
+        </form>
+    </main> 
+
+</body>
+</html>
