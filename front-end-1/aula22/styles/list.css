@@ -1,0 +1,20 @@
+h1 {
+  color: chartreuse;
+}
+
+ul {
+  background-color: chartreuse;
+}
+
+ul:hover {
+  background-color: skyblue;
+}
+
+ul li {
+  color: white;
+}
+
+ul li a {
+  color: violet;
+}
+/*# sourceMappingURL=list.css.map */
