@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  background-color: red;
+}
+
+header ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header ul .icone-da-pagina {
+  text-decoration: none;
+  padding: 15px 20px 0px 20px;
+}
+
+header ul .nome-da-pagina {
+  min-width: 40%;
+  text-align: left;
+  text-decoration: none;
+  padding: 15px 20px 0px 20px;
+}
+
+header ul .item-da-lista {
+  text-align: center;
+  height: 80px;
+  text-decoration: none;
+  color: blue;
+  padding: 15px 20px 0px 20px;
+}
+
+header ul .item-da-lista:hover {
+  background-color: green;
+}
+
+header ul .item-da-lista-selecionado {
+  text-align: center;
+  height: 80px;
+  text-decoration: none;
+  background-color: green;
+  padding: 15px 20px 0px 20px;
+}
+
+main .carousel-item img {
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 40px;
+}
+/*# sourceMappingURL=style.css.map */
