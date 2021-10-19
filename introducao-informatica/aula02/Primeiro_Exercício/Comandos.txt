@@ -1,0 +1,23 @@
+Grupo 7
+
+Lucas Fontenele
+Lucas Rosa
+Denis Galdino
+Michel Picozzi
+Matheus Rodrigues
+
+cd desktop
+mkdir raiz
+cd raiz
+mkdir pasta1 pasta2 pasta3
+cd pasta1
+touch criar mover1 excluir
+rm excluir
+mv mover1 ../pasta2/mover1
+cd ..
+cd pasta3
+touch criar3 mover3 excluir3
+rm excluir3
+mv mover3 ../pasta2/mover3
+cd ..
+ls -R
